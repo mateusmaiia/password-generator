@@ -6,4 +6,85 @@
 
 body {
   font-family: "Inter", sans-serif;
+  height: 100vh;
+  width: 100%;
+  background: #18181b;
+}
+
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1124px;
+  height: 74px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  margin-top: 170px;
+  /* background: red; */
+}
+
+.logo-name h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 106%;
+  color: #e4e4e7;
+}
+
+.logo-name h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #71717a;
+
+  margin-top: 8px;
+}
+
+.section-hero--wrapper {
+  width: 100%;
+  height: calc(100vh - 244px);
+
+  display: flex;
+  justify-content: center;
+}
+
+.section-hero--container {
+  width: 100%;
+  max-width: 1124px;
+  height: 318px;
+  display: flex;
+  gap: 40px;
+
+  margin-top: 48px;
+  padding: 32px;
+
+  background: red;
+}
+
+.default-password {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 686px;
+  height: 78px;
+}
+
+.default-password h1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #a1a1aa;
+}
+
+.inputs1 {
+  display: flex;
 }
