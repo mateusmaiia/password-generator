@@ -272,11 +272,15 @@ body {
 
   outline: none;
   cursor: pointer;
-  padding: 2px, 16px, 2px, 16px;
+  padding: 2px 16px
 
   font-weight: 600;
   font-size: 12px;
   line-height: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rightside-bottom {
