@@ -64,9 +64,15 @@ body {
   gap: 40px;
 
   margin-top: 48px;
-  padding: 32px;
 
-  background: red;
+  /* background: red; */
+}
+
+.section-hero--leftside {
+  border: 1px solid #27272a;
+  border-radius: 12px;
+  padding: 32px;
+  height: 318px;
 }
 
 .default-password {
@@ -76,15 +82,109 @@ body {
   width: 100%;
   max-width: 686px;
   height: 78px;
+
+  gap: 12px;
+
+  margin-bottom: 40px;
+  /* background: blue; */
 }
 
-.default-password h1 {
+.title-input {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
   color: #a1a1aa;
 }
 
-.inputs1 {
+.inputs {
   display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.inputs input {
+  height: 41px;
+  width: 686px;
+
+  border: none;
+  outline: none;
+  background: #27272a;
+  border-radius: 4px;
+  padding: 10px 0px 10px 10px;
+}
+
+.inputs button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+
+  width: 86px;
+  height: 41px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+
+  background: #f43f5e;
+  border-radius: 4px;
+
+  padding: 8px 24px;
+
+  color: #fafafa;
+
+  cursor: pointer;
+}
+
+.hash-password {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 686px;
+  height: 78px;
+
+  gap: 12px;
+}
+
+.inputs-hash {
+  display: flex;
+  gap: 8px;
+}
+
+.inputs-hash input {
+  height: 41px;
+  width: 560px;
+
+  border: none;
+  outline: none;
+  background: #27272a;
+  border-radius: 4px;
+  padding: 10px 0px 10px 10px;
+}
+
+.inputs-hash button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  outline: none;
+
+  width: 118px;
+  height: 41px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+
+  background: #f43f5e;
+  border-radius: 4px;
+
+  padding: 8px 24px;
+
+  color: #fafafa;
+
+  cursor: pointer;
 }
