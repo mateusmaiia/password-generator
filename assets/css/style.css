@@ -188,3 +188,33 @@ body {
 
   cursor: pointer;
 }
+
+.hash-cripts {
+  display: flex;
+  gap: 8px;
+  margin-top: 32px;
+}
+
+.hash-cripts button {
+  width: 70px;
+  height: 28px;
+  border-radius: 16px;
+  border: 1px solid #52525b;
+  background: #18181b;
+  color: #52525b;
+  outline: none;
+  cursor: pointer;
+  padding: 2px, 16px, 2px, 16px;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.hash-cripts .MD5 {
+  background: rgba(251, 113, 133, 0.1);
+  color: #fb7185;
+  /* Tail Tail/rose/400 */
+
+  border: 1px solid #fb7185;
+}
